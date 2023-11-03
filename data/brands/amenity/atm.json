@@ -40,6 +40,16 @@
       }
     },
     {
+      "displayName": "atmx by Armaguard",
+      "id": "armaguard-8509c1",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "amenity": "atm",
+        "brand": "Armaguard",
+        "brand:wikidata": "Q118898974"
+      }
+    },
+    {
       "displayName": "Banco24Horas",
       "id": "banco24horas-a02d2b",
       "locationSet": {"include": ["br"]},
@@ -139,6 +149,17 @@
       }
     },
     {
+      "displayName": "Cryptobase",
+      "id": "cryptobase-93d3a2",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "atm",
+        "brand": "Cryptobase",
+        "brand:wikidata": "Q122453754",
+        "currency:XBT": "yes"
+      }
+    },
+    {
       "displayName": "Euronet",
       "id": "euronet-d5d850",
       "locationSet": {
@@ -166,9 +187,20 @@
       }
     },
     {
+      "displayName": "Hitachi Money Spot ATM",
+      "id": "hitachi-ad0527",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "amenity": "atm",
+        "brand": "Hitachi",
+        "brand:wikidata": "Q53238"
+      }
+    },
+    {
       "displayName": "LibertyX",
       "id": "libertyx-93d3a2",
       "locationSet": {"include": ["us"]},
+      "matchNames": ["libertyx bitcoin atm"],
       "tags": {
         "amenity": "atm",
         "brand": "LibertyX",
@@ -198,6 +230,17 @@
         "operator": "NoteMachine",
         "operator:short": "NMATM",
         "operator:wikidata": "Q104368525"
+      }
+    },
+    {
+      "displayName": "Pathward (MetaBank)",
+      "id": "pathward-93d3a2",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["metabank"],
+      "tags": {
+        "amenity": "atm",
+        "brand": "Pathward",
+        "brand:wikidata": "Q6822267"
       }
     },
     {

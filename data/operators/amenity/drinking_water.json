@@ -249,6 +249,15 @@
       }
     },
     {
+      "displayName": "Comune di Monteroni d'Arbia",
+      "id": "comunedimonteronidarbia-3fbe17",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "drinking_water",
+        "operator": "Comune di Monteroni d'Arbia"
+      }
+    },
+    {
       "displayName": "Comune di Ortisei / Gemeinde St. Ulrich",
       "id": "comunediortiseigemeindestulrich-8df115",
       "locationSet": {"include": ["it"]},
@@ -273,6 +282,15 @@
       "tags": {
         "amenity": "drinking_water",
         "operator": "Comune di Selva / Gemeinde Wolkenstein"
+      }
+    },
+    {
+      "displayName": "Comune di Siena",
+      "id": "comunedisiena-3fbe17",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "drinking_water",
+        "operator": "Comune di Siena"
       }
     },
     {
@@ -690,6 +708,15 @@
       }
     },
     {
+      "displayName": "Taigua",
+      "id": "taigua-3fbe17",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "drinking_water",
+        "operator": "Taigua"
+      }
+    },
+    {
       "displayName": "Tom",
       "id": "tom-3fbe17",
       "locationSet": {"include": ["001"]},
@@ -733,11 +760,12 @@
     },
     {
       "displayName": "University of South Wales",
-      "id": "universityofsouthwales-3fbe17",
-      "locationSet": {"include": ["001"]},
+      "id": "universityofsouthwales-97bbae",
+      "locationSet": {"include": ["gb-wls"]},
       "tags": {
         "amenity": "drinking_water",
-        "operator": "University of South Wales"
+        "operator": "University of South Wales",
+        "operator:wikidata": "Q1971174"
       }
     },
     {
@@ -790,7 +818,8 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "amenity": "drinking_water",
-        "operator": "Vitens"
+        "operator": "Vitens",
+        "operator:wikidata": "Q1943963"
       }
     },
     {

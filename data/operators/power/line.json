@@ -283,8 +283,8 @@
       }
     },
     {
-      "displayName": "APCO",
-      "id": "appalachianpower-33137a",
+      "displayName": "Appalachian Power",
+      "id": "appalachianpowercompany-33137a",
       "locationSet": {
         "include": [
           "us-tn.geojson",
@@ -292,10 +292,9 @@
           "us-wv.geojson"
         ]
       },
-      "matchNames": ["appalachian power company"],
+      "matchNames": ["apco", "appalachian power"],
       "tags": {
-        "operator": "Appalachian Power",
-        "operator:short": "APCO",
+        "operator": "Appalachian Power Company",
         "operator:wikidata": "Q109013941",
         "power": "line"
       }
@@ -437,21 +436,31 @@
     },
     {
       "displayName": "AÜW",
-      "id": "auw-116894",
-      "locationSet": {"include": ["001"]},
-      "tags": {"operator": "AÜW", "power": "line"}
+      "id": "auw-a9bd01",
+      "locationSet": {
+        "include": [
+          "at-8.geojson",
+          "de-by.geojson"
+        ]
+      },
+      "tags": {
+        "operator": "AÜW",
+        "operator:wikidata": "Q994822",
+        "power": "line"
+      }
     },
     {
-      "displayName": "Avacon",
-      "id": "avacon-d5e323",
+      "displayName": "Avacon Netz",
+      "id": "avaconnetz-d5e323",
       "locationSet": {"include": ["de"]},
       "matchNames": [
+        "avacon",
         "avacon ag",
         "avacon netz gmbh",
         "e.on avacon"
       ],
       "tags": {
-        "operator": "Avacon",
+        "operator": "Avacon Netz",
         "operator:wikidata": "Q1273382",
         "power": "line"
       }
@@ -935,15 +944,6 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "operator": "CGE Transmisión",
-        "power": "line"
-      }
-    },
-    {
-      "displayName": "China Southern Powergrid",
-      "id": "chinasouthernpowergrid-cf3c91",
-      "locationSet": {"include": ["cn"]},
-      "tags": {
-        "operator": "China Southern Powergrid",
         "power": "line"
       }
     },
@@ -2210,18 +2210,19 @@
       }
     },
     {
-      "displayName": "enercity",
-      "id": "enercity-9e30b0",
+      "displayName": "enercity Netz",
+      "id": "enercitynetz-9e30b0",
       "locationSet": {
         "include": ["de-ni.geojson"]
       },
       "matchNames": [
+        "enercity",
         "enercity netzgesellschaft mbh",
         "stadtwerke_hannover_ag"
       ],
       "tags": {
-        "operator": "enercity",
-        "operator:wikidata": "Q1669141",
+        "operator": "enercity Netz",
+        "operator:wikidata": "Q123018653",
         "power": "line"
       }
     },
@@ -2445,10 +2446,11 @@
     },
     {
       "displayName": "Ente Provincial de Energía del Neuquén",
-      "id": "enteprovincialdeenergiadelneuquen-116894",
-      "locationSet": {"include": ["001"]},
+      "id": "enteprovincialdeenergiadelneuquen-c85572",
+      "locationSet": {"include": ["ar"]},
       "tags": {
         "operator": "Ente Provincial de Energía del Neuquén",
+        "operator:wikidata": "Q5834173",
         "power": "line"
       }
     },
@@ -2735,7 +2737,7 @@
       }
     },
     {
-      "displayName": "EVN (Austria)",
+      "displayName": "EVN (Österreich)",
       "id": "evn-7a29cb",
       "locationSet": {"include": ["at"]},
       "matchNames": ["evn ag"],
@@ -2746,7 +2748,7 @@
       }
     },
     {
-      "displayName": "EVN (Vietnam)",
+      "displayName": "EVN (Việt Nam)",
       "id": "evn-e72a33",
       "locationSet": {"include": ["vn"]},
       "tags": {
@@ -3509,6 +3511,15 @@
         "operator": "Jacksonville Electric Authority",
         "operator:short": "JEA",
         "operator:wikidata": "Q17068270",
+        "power": "line"
+      }
+    },
+    {
+      "displayName": "Jersey Central Power & Light/JCPL/First Energy",
+      "id": "jerseycentralpowerandlightjcplfirstenergy-116894",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Jersey Central Power & Light/JCPL/First Energy",
         "power": "line"
       }
     },
@@ -4635,7 +4646,10 @@
       "displayName": "Oʻzbekenergo",
       "id": "99723a-1301e2",
       "locationSet": {"include": ["uz"]},
-      "matchNames": ["uzbekenergo"],
+      "matchNames": [
+        "ozbekenergo",
+        "uzbekenergo"
+      ],
       "tags": {
         "operator": "Oʻzbekenergo",
         "operator:wikidata": "Q4469715",
@@ -7293,6 +7307,18 @@
       }
     },
     {
+      "displayName": "中国南方电网",
+      "id": "chinasouthernpowergrid-cf3c91",
+      "locationSet": {"include": ["cn"]},
+      "matchNames": ["南方电网"],
+      "tags": {
+        "operator": "中国南方电网",
+        "operator:en": "China Southern Power Grid",
+        "operator:zh": "中国南方电网",
+        "power": "line"
+      }
+    },
+    {
       "displayName": "中国電力ネットワーク",
       "id": "chugokuelectricpowertransmissionanddistributioncompany-e95322",
       "locationSet": {"include": ["jp"]},
@@ -7376,15 +7402,6 @@
         "operator:en": "Hokuriku Electric Power Transmission & Distribution Company",
         "operator:ja": "北陸電力送配電",
         "operator:wikidata": "Q65142438",
-        "power": "line"
-      }
-    },
-    {
-      "displayName": "南方电网",
-      "id": "c6d1c4-116894",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "operator": "南方电网",
         "power": "line"
       }
     },

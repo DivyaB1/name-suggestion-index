@@ -79,7 +79,8 @@
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
-        "operator": "Ascension"
+        "operator": "Ascension",
+        "operator:wikidata": "Q96372437"
       }
     },
     {
@@ -257,12 +258,14 @@
     },
     {
       "displayName": "Clinica Sante",
-      "id": "clinicasante-55c168",
-      "locationSet": {"include": ["001"]},
+      "id": "clinicasante-6e8e8c",
+      "locationSet": {"include": ["md"]},
+      "matchNames": ["sante"],
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
-        "operator": "Clinica Sante"
+        "operator": "Clinica Sante",
+        "operator:wikidata": "Q121080834"
       }
     },
     {
@@ -284,6 +287,20 @@
         "healthcare": "clinic",
         "operator": "Concentra",
         "operator:wikidata": "Q5158304"
+      }
+    },
+    {
+      "displayName": "Cook County Health",
+      "id": "cookcountyhealth-15fccf",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Cook County Health",
+        "operator:short": "CCH",
+        "operator:wikidata": "Q30286975"
       }
     },
     {
@@ -371,8 +388,8 @@
         "healthcare:speciality": "nephrology",
         "name": "Dialysis Clinic",
         "operator": "Dialysis Clinic",
-        "operator:wikidata": "Q5270633",
-        "short_name": "DCI"
+        "operator:short": "DCI",
+        "operator:wikidata": "Q5270633"
       }
     },
     {
@@ -568,7 +585,7 @@
       }
     },
     {
-      "displayName": "Gobierno Regional (Peru)",
+      "displayName": "Gobierno Regional (Perú)",
       "id": "gobiernoregional-aa2e69",
       "locationSet": {"include": ["pe"]},
       "tags": {
@@ -2062,7 +2079,7 @@
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
-        "healthcare:for": "veterans",
+        "healthcare:for": "veteran",
         "name": "VA Clinic",
         "operator": "VA",
         "operator:wikidata": "Q6580225",

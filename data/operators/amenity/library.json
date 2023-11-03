@@ -133,7 +133,7 @@
         "amenity": "library",
         "operator": "Biblioteca Comunale di Trento",
         "operator:type": "public",
-        "operator:wikidata:": "Q59940713"
+        "operator:wikidata": "Q59940713"
       }
     },
     {
@@ -427,6 +427,18 @@
         "operator:type": "government",
         "operator:wikidata": "Q1185115",
         "operator:xh": "IsiXeko saseKapa"
+      }
+    },
+    {
+      "displayName": "City of Moreton Bay",
+      "id": "cityofmoretonbay-8e5058",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "City of Moreton Bay",
+        "operator:wikidata": "Q85372032"
       }
     },
     {
@@ -963,11 +975,13 @@
     },
     {
       "displayName": "Kornhausbibliotheken Bern",
-      "id": "kornhausbibliothekenbern-9284e0",
-      "locationSet": {"include": ["001"]},
+      "id": "kornhausbibliothekenbern-ef001e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "amenity": "library",
-        "operator": "Kornhausbibliotheken Bern"
+        "operator": "Kornhausbibliotheken Bern",
+        "operator:type": "public",
+        "operator:wikidata": "Q1784554"
       }
     },
     {
@@ -1706,7 +1720,7 @@
         "amenity": "library",
         "operator": "Somerset Council",
         "operator:type": "government",
-        "operator:wikidata": "Q110682463"
+        "operator:wikidata": "Q6386270"
       }
     },
     {

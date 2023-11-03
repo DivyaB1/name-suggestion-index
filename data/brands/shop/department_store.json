@@ -207,6 +207,7 @@
       "displayName": "Burlington",
       "id": "burlington-bed633",
       "locationSet": {"include": ["pr", "us"]},
+      "matchNames": ["burlington stores"],
       "tags": {
         "alt_name": "Burlington Coat Factory",
         "brand": "Burlington",
@@ -282,6 +283,18 @@
         "brand": "Coin",
         "brand:wikidata": "Q1107215",
         "name": "Coin Excelsior",
+        "shop": "department_store"
+      }
+    },
+    {
+      "displayName": "Coop City",
+      "id": "coopcity-66d8a4",
+      "locationSet": {"include": ["ch"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Coop City",
+        "brand:wikidata": "Q120492050",
+        "name": "Coop City",
         "shop": "department_store"
       }
     },
@@ -794,6 +807,7 @@
       "displayName": "Kohl's",
       "id": "kohls-592fe0",
       "locationSet": {"include": ["us"]},
+      "matchNames": ["kohl's department store"],
       "tags": {
         "brand": "Kohl's",
         "brand:wikidata": "Q967265",
@@ -931,6 +945,17 @@
       }
     },
     {
+      "displayName": "Macy's Backstage",
+      "id": "macysbackstage-592fe0",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Macy's Backstage",
+        "brand:wikidata": "Q122914589",
+        "name": "Macy's Backstage",
+        "shop": "department_store"
+      }
+    },
+    {
       "displayName": "Magazine Luiza",
       "id": "magazineluiza-7a47e3",
       "locationSet": {"include": ["br"]},
@@ -961,6 +986,24 @@
         "brand": "Manufactum",
         "brand:wikidata": "Q1694737",
         "name": "Manufactum",
+        "shop": "department_store"
+      }
+    },
+    {
+      "displayName": "Marden's",
+      "id": "mardens-28650f",
+      "locationSet": {
+        "include": ["us-me.geojson"]
+      },
+      "matchTags": [
+        "shop/discount",
+        "shop/variety"
+      ],
+      "tags": {
+        "brand": "Marden's",
+        "brand:wikidata": "Q96391944",
+        "name": "Marden's",
+        "official_name": "Marden's Surplus and Salvage",
         "shop": "department_store"
       }
     },
@@ -1471,12 +1514,13 @@
       }
     },
     {
-      "displayName": "Yankee Candle",
-      "id": "yankeecandle-03e633",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Zema",
+      "id": "zema-7a47e3",
+      "locationSet": {"include": ["br"]},
       "tags": {
-        "brand": "Yankee Candle",
-        "name": "Yankee Candle",
+        "brand": "Zema",
+        "brand:wikidata": "Q123166034",
+        "name": "Zema",
         "shop": "department_store"
       }
     },

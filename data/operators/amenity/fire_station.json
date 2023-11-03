@@ -38,7 +38,8 @@
       "locationSet": {"include": ["tr"]},
       "tags": {
         "amenity": "fire_station",
-        "operator": "Ankara İtfaiyesi"
+        "operator": "Ankara İtfaiyesi",
+        "operator:wikidata": "Q118946765"
       }
     },
     {
@@ -952,7 +953,8 @@
       "locationSet": {"include": ["tr"]},
       "tags": {
         "amenity": "fire_station",
-        "operator": "İstanbul İtfaiyesi"
+        "operator": "İstanbul İtfaiyesi",
+        "operator:wikidata": "Q118946594"
       }
     },
     {
@@ -3143,11 +3145,12 @@
     },
     {
       "displayName": "Veiligheids- en Gezondheidsregio Gelderland-Midden",
-      "id": "veiligheidsengezondheidsregiogelderlandmidden-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "veiligheidsengezondheidsregiogelderlandmidden-0004ee",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "amenity": "fire_station",
-        "operator": "Veiligheids- en Gezondheidsregio Gelderland-Midden"
+        "operator": "Veiligheids- en Gezondheidsregio Gelderland-Midden",
+        "operator:wikidata": "Q89363053"
       }
     },
     {
@@ -3703,6 +3706,16 @@
       }
     },
     {
+      "displayName": "Державна служба України з надзвичайних ситуацій",
+      "id": "8aac0c-41cc36",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["мчс"],
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Державна служба України з надзвичайних ситуацій"
+      }
+    },
+    {
       "displayName": "Министерство на вътрешните работи",
       "id": "8bb510-1d8548",
       "locationSet": {"include": ["bg"]},
@@ -3715,10 +3728,8 @@
     },
     {
       "displayName": "МЧС",
-      "id": "609176-74f567",
-      "locationSet": {
-        "include": ["by", "ru", "ua"]
-      },
+      "id": "609176-0b04d7",
+      "locationSet": {"include": ["by", "ru"]},
       "tags": {
         "amenity": "fire_station",
         "operator": "МЧС"

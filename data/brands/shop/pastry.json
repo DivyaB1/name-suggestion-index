@@ -18,6 +18,17 @@
       }
     },
     {
+      "displayName": "Bolo da Madre",
+      "id": "bolodamadre-64176e",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "brand": "Bolo da Madre",
+        "brand:wikidata": "Q121322483",
+        "name": "Bolo da Madre",
+        "shop": "pastry"
+      }
+    },
+    {
       "displayName": "Café de Nata",
       "id": "cafedenata-4c047d",
       "locationSet": {"include": ["gb"]},
@@ -34,9 +45,12 @@
       "displayName": "Cake Box",
       "id": "cakebox-4c047d",
       "locationSet": {"include": ["gb"]},
+      "matchNames": ["eggfree cake box"],
       "tags": {
         "brand": "Cake Box",
         "brand:wikidata": "Q110057905",
+        "diet:lacto_vegetarian": "yes",
+        "diet:vegetarian": "yes",
         "name": "Cake Box",
         "shop": "pastry"
       }
@@ -279,6 +293,26 @@
         "brand": "Smallcakes",
         "brand:wikidata": "Q62384749",
         "name": "Smallcakes",
+        "shop": "pastry"
+      }
+    },
+    {
+      "displayName": "Vatsak",
+      "id": "vatsak-f2fef9",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "confectionery house vatsak",
+        "vatsak confectionery house",
+        "кондитерський дім вацак"
+      ],
+      "tags": {
+        "brand": "Вацак",
+        "brand:en": "Vatsak",
+        "brand:uk": "Вацак",
+        "brand:wikidata": "Q30966576",
+        "name": "Вацак",
+        "name:en": "Vatsak",
+        "name:uk": "Вацак",
         "shop": "pastry"
       }
     },
